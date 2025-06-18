@@ -1,0 +1,348 @@
+/* Custom Font Inclusion */
+@font-face {
+    font-family: 'Brandon Grotesque Black';
+    src: url('https://founders-circle-font.s3.amazonaws.com/brandon+grotesque/brandon-grotesque-black.woff') format('woff');
+}
+
+/* Title Row Styles */
+.title-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.title-row h1 {
+    font-family: 'Brandon Grotesque Black', Arial, sans-serif;
+    font-size: 8vw; /* Large font size for larger screens */
+    color: #1F0F0D;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* General Page Styles */
+body {
+    font-family: 'Roboto', monospace;
+    background-color: #F2E2CE;
+    color: #1F0F0D;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+/* Grid Layout Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100vh;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.top-row, .bottom-row {
+    grid-column: 1 / span 2;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #F2E2CE;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-content h1 {
+    font-family: 'Brandon Grotesque Black', Arial, sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link, .divider {
+    font-family: 'Brandon Grotesque Black', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    color: #ddd;
+    background-color: #555;
+    border-radius: 2px;
+}
+
+.navbar-links .nav-link:last-child {
+    padding-right: 30px;
+}
+
+/* Table Styles */
+.table-container {
+    font-family: 'Courier New', monospace;
+    background-color: #F2E2CE;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.table-title {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+}
+
+.table-container th, .table-container td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container td:nth-child(1) { width: 15%; }
+.table-container td:nth-child(2) { width: 35%; }
+.table-container td:nth-child(3) { width: 25%; }
+.table-container td:nth-child(4) { width: 25%; }
+
+.crossed-text {
+    display: inline-block;
+    position: relative;
+    font-style: italic;
+}
+
+.crossed-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    background-color: #1F0F0D;
+    transform: rotate(-5deg);
+}
+
+.uncrossed-text {
+    /* Styles if needed */
+}
+
+/* Accordion Styles */
+.accordion-item {
+    background: white;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px; /* Same width as the table */
+}
+
+.accordion-button {
+    background: #F2E2CE;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px; /* Same font size as table content */
+    font-family: 'Courier new', Arial, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.accordion-content {
+  background: #F2E2CE;
+    padding: 10px 20px;
+    display: none;
+    font-family: 'Courier New', monospace;
+    font-size: 16px; /* Same font size as table content */
+}
+
+.accordion-icon {
+    font-size: 20px; /* Icon size */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 600px) {
+    .title-row h1 {
+        font-size: 5vw; /* Smaller font size for the title */
+    }
+
+    .title-row h2 {
+        font-size: 4vw; /* Smaller font size for the subtitle */
+        text-align: center; /* Centered alignment */
+    }
+
+    .navbar-content, .navbar-links {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-link, .divider {
+        font-size: 14px; /* Smaller font size for nav links */
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .table-container {
+        max-width: 100%;
+    }
+
+    .table-container td {
+        font-size: 14px; /* Smaller font size for table content */
+    }
+
+    .accordion-item {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .accordion-button {
+        font-size: 14px; /* Smaller font size for accordion buttons */
+    }
+}
+/* ... existing styles ... */
+.title-row h2 {
+    /* existing styles for h2 */
+    margin-bottom: 10px; /* Decrease bottom margin to reduce space */
+}
+
+.product-animation {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.product-animation img {
+    max-width: 100%;
+    max-height: 300px; /* Adjust as needed */
+}
+
+.coming-soon {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F2E2CE;
+    padding: 10px;
+}
+
+.navbar a {
+    font-family: 'Brandon Grotesque Black', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* ... responsive styles ... */
+@media (max-width: 600px) {
+    .title-row h1, .title-row h2 {
+        font-size: 4vw; /* Smaller font size for smaller screens */
+    }
+.title-row h2 {
+        margin-bottom: 3px; /* Further decrease bottom margin for small screens */
+    }
+.product-animation {
+        margin-top: 2px; /* Adjust top margin for small screens */
+        margin-bottom: 20px; /* Adjust bottom margin for small screens */
+    }
+    .coming-soon {
+        font-size: 18px; /* Smaller font size for 'COMING SOON' text */
+    }
+
+    .navbar-content h1, .nav-link {
+        font-size: 14px; /* Smaller font size for navbar content */
+    }
+  /* ... existing styles ... */
+/* ... existing styles ... */
+
+/* Title Row Styles */
+.title-row {
+    text-align: center;
+}
+
+/* Form Container Styles */
+.form-container {
+    text-align: center; /* Center align the content */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Typeform Trigger Button Styles */
+#typeform-trigger {
+    display: block; /* Ensures the button is a block-level element */
+    width: 200px; /* Fixed width of the button */
+    padding: 10px;
+    margin: 20px auto; /* Centers the button horizontally */
+    background-color: #1F0F0D;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    /* Additional responsive adjustments for the button if needed */
+    #typeform-trigger {
+        width: 150px; /* Optionally, adjust width for smaller screens */
+    }
+}
