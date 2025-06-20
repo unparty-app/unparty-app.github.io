@@ -28,8 +28,8 @@ const tableData = [
         status: Status.COMPLETED
     },
     {
-        date: 'TBA',
-        task: 'UNPARTY NOTION',
+        date: '06.30.2025',
+        task: 'THEUNPARTYCRAWLER',
         audience: Audience.FOUNDERS,
         platform: Platform.PLATFORM,
         status: Status.COMPLETED
