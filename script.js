@@ -26,21 +26,21 @@ const tableData = [
         date: '6-30',
         task: 'UNPARTY.APP',
         audience: Audience.FOUNDERS,
-        platform: Platform.APP,
+        platform: Platform.PLATFORM,
         status: Status.ACTIVE
     },
     {
         date: '6-30',
-        task: 'THEUNPARTYCRAWLER',
+        task: 'CRAWLER.',
         audience: Audience.FOUNDERS,
-        platform: Platform.GIT,
+        platform: Platform.CODE,
         status: Status.ACTIVE
     },
     {
         date: '6-30',
-        task: 'THEUNPARTYAPPRUNWAY',
+        task: 'RUNWAY.',
         audience: Audience.FOUNDERS,
-        platform: Platform.GIT,
+        platform: Platform.CODE,
         status: Status.ACTIVE
     },
     {
@@ -52,7 +52,7 @@ const tableData = [
     },
     {
         date: 'TBA',
-        task: 'UNCLOCK',
+        task: 'UNCLOCK.',
         audience: Audience.TBA,
         platform: Platform.IOS,
         status: Status.COMPLETED
