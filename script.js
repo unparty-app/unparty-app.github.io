@@ -21,8 +21,8 @@ const Status = {
 // CSV-like data structure
 const tableData = [
     {
-        date: 'TBA',
-        task: 'UNPARTY FOUNDERS',
+        date: '06.30.2025',
+        task: 'UNPARTY.APP',
         audience: Audience.FOUNDERS,
         platform: Platform.PLATFORM,
         status: Status.COMPLETED
@@ -35,22 +35,22 @@ const tableData = [
         status: Status.COMPLETED
     },
     {
-        date: 'TBA',
-        task: 'UNPARTY LANDING',
+        date: '06.30.2025',
+        task: 'THEUNPARTYAPPRUNWAY',
         audience: Audience.FOUNDERS,
         platform: Platform.PLATFORM,
         status: Status.COMPLETED
     },
     {
         date: 'TBA',
-        task: 'VISION IS NOT PRODUCT',
+        task: 'UNPPP.',
         audience: Audience.FOUNDERS,
         platform: Platform.PLATFORM,
         status: Status.COMPLETED
     },
     {
         date: 'TBA',
-        task: 'UNPARTY APP',
+        task: 'UNCLOCK',
         audience: Audience.TBA,
         platform: Platform.TBA,
         status: Status.COMPLETED
