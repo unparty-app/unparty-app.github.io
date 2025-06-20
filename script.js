@@ -6,9 +6,11 @@ const Audience = {
 };
 
 const Platform = {
-    PLATFORM: 'PLATFORM',
+    PLATFORM: 'APP',
     TEMPLATE: 'template',
     SERVICE: 'SERVICE',
+    CODE: 'GIT',
+    IOS: 'IOS',
     FREE: 'free',
     TBA: 'TBA'
 };
@@ -21,38 +23,38 @@ const Status = {
 // CSV-like data structure
 const tableData = [
     {
-        date: '06.30.2025',
+        date: '6-30',
         task: 'UNPARTY.APP',
         audience: Audience.FOUNDERS,
-        platform: Platform.PLATFORM,
-        status: Status.COMPLETED
+        platform: Platform.APP,
+        status: Status.ACTIVE
     },
     {
-        date: '06.30.2025',
+        date: '6-30',
         task: 'THEUNPARTYCRAWLER',
         audience: Audience.FOUNDERS,
-        platform: Platform.PLATFORM,
-        status: Status.COMPLETED
+        platform: Platform.GIT,
+        status: Status.ACTIVE
     },
     {
-        date: '06.30.2025',
+        date: '6-30',
         task: 'THEUNPARTYAPPRUNWAY',
         audience: Audience.FOUNDERS,
-        platform: Platform.PLATFORM,
-        status: Status.COMPLETED
+        platform: Platform.GIT,
+        status: Status.ACTIVE
     },
     {
         date: 'TBA',
         task: 'UNPPP.',
         audience: Audience.FOUNDERS,
-        platform: Platform.PLATFORM,
+        platform: Platform.IOS,
         status: Status.COMPLETED
     },
     {
         date: 'TBA',
         task: 'UNCLOCK',
         audience: Audience.TBA,
-        platform: Platform.TBA,
+        platform: Platform.IOS,
         status: Status.COMPLETED
     }
 ];
