@@ -23,35 +23,35 @@ const Status = {
 // CSV-like data structure
 const tableData = [
     {
-        date: '6-30',
+        step: '1-30',
         task: 'UNPARTY.APP',
         audience: Audience.FOUNDERS,
         platform: Platform.PLATFORM,
         status: Status.ACTIVE
     },
     {
-        date: '6-30',
+        step: '2-30',
         task: 'CRAWLER.',
         audience: Audience.FOUNDERS,
         platform: Platform.CODE,
         status: Status.ACTIVE
     },
     {
-        date: '6-30',
+        step: '3-30',
         task: 'RUNWAY.',
         audience: Audience.FOUNDERS,
         platform: Platform.CODE,
         status: Status.ACTIVE
     },
     {
-        date: 'TBA',
+        step: '4-30',
         task: 'UNPPP.',
         audience: Audience.FOUNDERS,
         platform: Platform.IOS,
         status: Status.COMPLETED
     },
     {
-        date: 'TBA',
+        step: '5-30',
         task: 'UNCLOCK.',
         audience: Audience.TBA,
         platform: Platform.IOS,
@@ -70,7 +70,7 @@ function populateTable() {
     tableData.forEach(row => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
-            <td>${row.date}</td>
+            <td>${row.step}</td>
             <td><span class="${row.status}">${row.task}</span></td>
             <td>${row.audience}</td>
             <td>${row.platform}</td>
