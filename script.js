@@ -26,70 +26,70 @@ const tableData = [
         step: '1-30',
         task: 'theunpartyapp',
         audience: Audience.FOUNDERS,
-        platform: Platform.PLATFORM,
+        platform: Platform.TBA,
         status: Status.ACTIVE
     },
     {
         step: '2-30',
         task: 'theunpartyapi',
         audience: Audience.FOUNDERS,
-        platform: Platform.CODE,
+        platform: Platform.TBA,
         status: Status.ACTIVE
     },
     {
         step: '3-30',
         task: 'theunpartybot',
         audience: Audience.FOUNDERS,
-        platform: Platform.CODE,
+        platform: Platform.TBA,
         status: Status.ACTIVE
     },
     {
         step: '4-30',
         task: 'theunpartybrand',
         audience: Audience.FOUNDERS,
-        platform: Platform.IOS,
+        platform: Platform.TBA,
         status: Status.COMPLETED
     },
     {
         step: '5-30',
         task: 'theunpartybudget',
-        audience: Audience.TBA,
-        platform: Platform.IOS,
+        audience: Audience.FOUNDERS,
+        platform: Platform.TBA,
         status: Status.COMPLETED
     },
     {
-        step: '5-30',
+        step: '6-30',
         task: 'theunpartychat',
-        audience: Audience.TBA,
-        platform: Platform.IOS,
+        audience: Audience.FOUNDERS,
+        platform: Platform.TBA,
         status: Status.COMPLETED
     },
     {
-        step: '5-30',
+        step: '7-30',
         task: 'theunpartychatty',
-        audience: Audience.TBA,
-        platform: Platform.IOS,
+        audience: Audience.FOUNDERS,
+        platform: Platform.TBA,
         status: Status.COMPLETED
     },
     {
-        step: '5-30',
+        step: '8-30',
         task: 'theunpartyclock',
-        audience: Audience.TBA,
-        platform: Platform.IOS,
+        audience: Audience.FOUNDERS,
+        platform: Platform.TBA,
         status: Status.COMPLETED
     },
     {
-        step: '5-30',
+        step: '9-30',
         task: 'theunpartycloud',
-        audience: Audience.TBA,
-        platform: Platform.IOS,
+        audience: Audience.FOUNDERS,
+        platform: Platform.TBA,
         status: Status.COMPLETED
     },
       {
-        step: '5-30',
+        step: '🪩',
         task: 'theunpartycore',
-        audience: Audience.TBA,
-        platform: Platform.IOS,
+        audience: Audience.FOUNDERS,
+        platform: Platform.TBA,
         status: Status.COMPLETED
     }
 ];
