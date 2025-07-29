@@ -24,35 +24,70 @@ const Status = {
 const tableData = [
     {
         step: '1-30',
-        task: 'UNPARTY.APP',
+        task: 'theunpartyapp',
         audience: Audience.FOUNDERS,
         platform: Platform.PLATFORM,
         status: Status.ACTIVE
     },
     {
         step: '2-30',
-        task: 'CRAWLER.',
+        task: 'theunpartyapi',
         audience: Audience.FOUNDERS,
         platform: Platform.CODE,
         status: Status.ACTIVE
     },
     {
         step: '3-30',
-        task: 'RUNWAY.',
+        task: 'theunpartybot',
         audience: Audience.FOUNDERS,
         platform: Platform.CODE,
         status: Status.ACTIVE
     },
     {
         step: '4-30',
-        task: 'UNPPP.',
+        task: 'theunpartybrand',
         audience: Audience.FOUNDERS,
         platform: Platform.IOS,
         status: Status.COMPLETED
     },
     {
         step: '5-30',
-        task: 'UNCLOCK.',
+        task: 'theunpartybudget',
+        audience: Audience.TBA,
+        platform: Platform.IOS,
+        status: Status.COMPLETED
+    },
+    {
+        step: '5-30',
+        task: 'theunpartychat',
+        audience: Audience.TBA,
+        platform: Platform.IOS,
+        status: Status.COMPLETED
+    },
+    {
+        step: '5-30',
+        task: 'theunpartychatty',
+        audience: Audience.TBA,
+        platform: Platform.IOS,
+        status: Status.COMPLETED
+    },
+    {
+        step: '5-30',
+        task: 'theunpartyclock',
+        audience: Audience.TBA,
+        platform: Platform.IOS,
+        status: Status.COMPLETED
+    },
+    {
+        step: '5-30',
+        task: 'theunpartycloud',
+        audience: Audience.TBA,
+        platform: Platform.IOS,
+        status: Status.COMPLETED
+    },
+      {
+        step: '5-30',
+        task: 'theunpartycore',
         audience: Audience.TBA,
         platform: Platform.IOS,
         status: Status.COMPLETED
