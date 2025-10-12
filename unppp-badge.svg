@@ -10,11 +10,11 @@
   
   <!-- Text outline (black) -->
   <text x="40" y="19" font-family="'Geist Mono', 'Brandon Grotesque', 'DM Sans', 'Inter', 'Helvetica Neue', sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="none" stroke="#171717" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" letter-spacing="0.5">
-    UNPPP
+    THEUNPARTYUNPPP
   </text>
   
   <!-- Text fill (yellow) -->
   <text x="40" y="19" font-family="'Geist Mono', 'Brandon Grotesque', 'DM Sans', 'Inter', 'Helvetica Neue', sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#f9c22e" letter-spacing="0.5">
-    UNPPP
+    THEUNPARTYUNPPP
   </text>
 </svg>
