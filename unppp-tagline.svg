@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="40" viewBox="0 0 280 40">
+  <!-- "WHAT" - Geist Mono style -->
+  <text x="0" y="25" font-family="'Geist Mono', 'SF Mono', 'Monaco', 'Courier New', monospace" font-size="18" font-weight="600" fill="#171717">
+    WHAT
+  </text>
+  
+  <!-- "ARE" - Geist Mono style with italic -->
+  <text x="55" y="25" font-family="'Geist Mono', 'SF Mono', 'Monaco', 'Courier New', monospace" font-size="18" font-weight="600" font-style="italic" fill="#171717">
+    ARE
+  </text>
+  
+  <!-- "YOU" - Geist Mono style -->
+  <text x="95" y="25" font-family="'Geist Mono', 'SF Mono', 'Monaco', 'Courier New', monospace" font-size="18" font-weight="600" fill="#171717">
+    YOU
+  </text>
+  
+  <!-- "INTO" - Rounded, softer feel with italic slant -->
+  <text x="140" y="30" font-family="'Brandon Grotesque', 'DM Sans', 'Inter', 'Helvetica Neue', sans-serif" font-size="20" font-weight="800" font-style="italic" fill="#171717" letter-spacing="0.5">
+    INTO
+  </text>
+  
+  <!-- "?" - Monospaced with italic -->
+  <text x="195" y="25" font-family="'Geist Mono', 'SF Mono', 'Monaco', 'Courier New', monospace" font-size="18" font-weight="600" font-style="italic" fill="#171717">
+    ?
+  </text>
+</svg>
